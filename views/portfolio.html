@@ -6,7 +6,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9e5ac04d15.js" crossorigin="anonymous"></script>
-  <link href="./assets/style.css" rel="stylesheet">
+  <link href="../assets/style.css" rel="stylesheet">
   <title>Potfolio</title>
 </head>
 <body>
@@ -18,13 +18,13 @@
       <div class="collapse navbar-collapse d-flex justify-content-end mr-lg-5" id="navbarNav">
         <ul class="links-list navbar-nav">
           <li class="nav-item mr-4">
-            <a class="nav-link" href="index.html">Projects</a>
+            <a class="nav-link" href="../index.html">About</a>
           </li>
           <li class="nav-item mr-4 active"><!-- The active class is used to select and style the active link -->
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>  <!-- .links-list closed -->
       </div>  <!-- .navbar-collapse closed -->
@@ -34,21 +34,39 @@
 <!-- Portfolio starts -->
 <div class="row">
   <div class="col-12">
-    <section class="portfolio-card card mx-auto p-5 my-5 text-center w-75">
-      <h5 class="text-info title-cards text-left">Portfolio</h5>
-      <div class="profile-content d-lg-flex d-block">
-        <img class="profile-img m-4" src="./assets/images/jess.jpeg" alt="jess-moran-photo">
-        <p class="text-justify">
-          <span class="mt-4 d-block font-italic mb-3">Passionate front end developer who loves code, learn and teach.</span>
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
-          some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
-          to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
-          text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-          this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a
-          handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem
-          Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-        </p>
-      </div>  <!-- .profile-content closed -->
+    <section class="portafolio"><!-- Three projects on the same row -->
+      <div class="row mx-auto">
+        <div class="col-lg-4 col-md-6 col-12 d-flex">
+          <div class="norns-card card  p-5 my-5 text-center"><!-- First project -->
+            <h5 class="text-info title-cards text-left">Norns</h5>
+            <img class="w-100 mt-5" src="../assets/images/norns.png" alt="ecofriendly-disign">
+            <p class="mt-5">E commerce web site for eco-friendly products </p>
+          </div>
+        </div><!-- .col-lg-4 closed -->
+        <div class="col-lg-4 col-md-6 col-12 d-flex">
+          <div class="zigo-card card  p-5 my-5 text-center"><!-- Second project -->
+            <h5 class="text-info title-cards text-left">Zigo Capital</h5>
+            <img class="w-100 mt-3" src="../assets/images/zigo.png" alt="ecofriendly-disign">
+            <p class="mt-5">Crowdfunding for Mexican PyMEs</p>
+          </div>
+        </div><!-- .col-lg-4 closed -->
+        <div class="col-lg-4 col-md-6 col-12 d-flex">
+          <div class="lunchbox-card card p-5 my-5 text-center"><!-- Third project -->
+            <h5 class="text-info title-cards text-left">Luchbox</h5>
+            <img class="w-100 mt-5" src="../assets/images/lunchbox.png" alt="ecofriendly-disign">
+            <p class="mt-5">Social network for kids</p>
+          </div>
+        </div><!-- .col-lg-4 closed -->
+      </div><!-- .row closed -->
+      <div class="row mx-auto">
+        <div class="col-lg-4 col-md-6 col-12 d-flex">
+          <div class="furniture-connection-card card  p-5 my-5 text-center"><!-- Forth project -->
+            <h5 class="text-info title-cards text-left">Furniture Connection</h5>
+            <img class="w-100 mt-5" src="../assets/images/furniture-connection.png" alt="ecofriendly-disign">
+            <p class="mt-5">Furniture's e-commerce </p>
+          </div>
+        </div><!-- .col-lg-4 closed -->
+      </div><!-- .row closed -->
     </section>
   </div>  <!-- .col-12 closed -->
 </div>  <!-- .row closed -->
