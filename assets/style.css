@@ -1,11 +1,14 @@
+/* General styles */
 body {
   font-family: 'Spartan', sans-serif;
 }
 
-.font-icons {
-  font-size: 30px;
+.h-100 {
+  height: 100px !important;
 }
+/* General styles closed*/
 
+/* Main section styles */
 .card {
   border-radius: 7px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
@@ -16,30 +19,25 @@ body {
   border-bottom: 2px solid #dee2e6;
 }
 
-.images {
-
-}
-
-.profile-img {
+.profile-img {  /* Profile image styles */
   width: 300px;
   height: 400px;
 }
+/* Main section styles closed*/
 
+/* Footer styles */
 footer {
-   height: 90px;
-}
-
-.h-100 {
-  height: 100px !important;
-}
-
-.contact-footer {
   height: 106px;
 }
 
-.porfolio-footer {
+.font-icons {
+  font-size: 30px;
+}
+
+.porfolio-footer {   /* Portfolio footer needs different height */
   height: 117px;
 }
+/* Footer styles closed*/
 
 /* media query tablet size */
 @media only screen and (max-width: 992px) {
